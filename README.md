@@ -17,7 +17,7 @@ To use the package, one need the following steps.
 3. Load the package APCI by the Maple command 
         with(APCI);
 
-4. Download the file and put it in a certain directory, say for example, "d:/maplepkg/" and load the package by the Maple command
-        read "d:/maplepkg/";
+4. Download the file ConRec.mple and put it in a certain directory, say for example, "d:/maplepkg/" and load the package by the Maple command
+        read "d:/maplepkg/ConRec.mpl";
         
-5. Now you can use the commands of the package. For examples, see the file.
+5. Now you can use the commands of the package. For examples, see the file "examples.mw".
