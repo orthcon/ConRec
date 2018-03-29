@@ -9,5 +9,15 @@ includes all the examples in the manuscript.
 
 To use the package, one need the following steps.
 
-1. Download the files APCI.
-To make the package work, one needs firstly install the APCI package.
+1. Download the four files APCI.hdb, apci.help, apci.ind, apci.lib and put them in one directory, say for example, "d:/maplelib/apci"
+
+2. Include the path of APCI in libname. That is, open Maple and type the command 
+        libname:=libname,"d:/maplelib/apci";
+
+3. Load the package APCI by the Maple command 
+        with(APCI);
+
+4. Download the file and put it in a certain directory, say for example, "d:/maplepkg/" and load the package by the Maple command
+        read "d:/maplepkg/";
+        
+5. Now you can use the commands of the package. For examples, see the file.
